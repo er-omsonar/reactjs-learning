@@ -1,10 +1,12 @@
+import Chai from "./chai"
 function App() {
-
+ const username = "om"
 
   return (
     <>
-     <h1>chai aur code | om sonar | This is my first project in react in that i learned that how to install react app and file structure of it.</h1>
-    </>
+    <Chai/>
+    <h1>user is {username}</h1>
+     </>
   )
 }
 
